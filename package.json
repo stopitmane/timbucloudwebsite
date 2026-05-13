@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "20.x"
+    "node": "18.x"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -43,11 +43,8 @@
   },
   "devDependencies": {
     "@types/node": "^16.18.126",
+    "ajv": "^8.20.0",
+    "ajv-keywords": "^5.1.0",
     "cross-env": "^10.1.0"
-  },
-  "overrides": {
-    "ajv": "6.12.6",
-    "ajv-keywords": "3.5.2",
-    "schema-utils": "3.3.0"
   }
 }
