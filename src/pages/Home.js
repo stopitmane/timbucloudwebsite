@@ -3,12 +3,12 @@ import { useCart } from '../context/CartContext';
 import './Home.css';
 
 const products = [
-  { id: 1, title: 'Ofada Rice (5kg)', category: 'Grains', description: 'Authentic aromatic Nigerian brown rice, locally grown in Ogun State.', image: '/images/product1.jpeg', price: 4500 },
-  { id: 2, title: 'Fresh Tomatoes (Basket)', category: 'Vegetables', description: 'Farm-fresh tomatoes from Jos Plateau, perfect for stews and soups.', image: '/images/product2.jpeg', price: 3200 },
-  { id: 3, title: 'Red Palm Oil (5L)', category: 'Oils', description: 'Pure, unrefined palm oil from Edo State. Rich colour and full flavour.', image: '/images/product3.jpeg', price: 6800 },
-  { id: 4, title: 'Dried Ugu Leaves (200g)', category: 'Vegetables', description: 'Sun-dried fluted pumpkin leaves, retaining full nutrients and flavour.', image: '/images/product4.jpeg', price: 1200 },
-  { id: 5, title: 'Garri (Ijebu, 10kg)', category: 'Grains', description: 'Sour and crunchy Ijebu garri. Best enjoyed soaked or as eba.', image: '/images/product5.jpeg', price: 7500 },
-  { id: 6, title: 'Ogiri (Fermented Locust Beans)', category: 'Spices', description: 'Traditional Igbo seasoning that deepens the flavour of soups and stews.', image: '/images/product6.png', price: 850 },
+  { id: 1, title: 'Premium Leather Sneakers', category: 'Shoes', description: 'Stylish and comfortable leather sneakers perfect for casual and semi-formal occasions.', image: '/images/product1.jpeg', price: 25000 },
+  { id: 2, title: 'Designer Handbag', category: 'Bags', description: 'Elegant designer handbag crafted from premium materials with spacious compartments.', image: '/images/product2.jpeg', price: 18500 },
+  { id: 3, title: 'Professional Camera', category: 'Electronics', description: 'High-quality digital camera with advanced features for photography enthusiasts.', image: '/images/product3.jpeg', price: 85000 },
+  { id: 4, title: 'Polarized Sunglasses', category: 'Eyewear', description: 'UV protection sunglasses with polarized lenses and trendy frame design.', image: '/images/product4.jpeg', price: 12000 },
+  { id: 5, title: 'Luxury Wristwatch', category: 'Watches', description: 'Sophisticated timepiece with precision movement and elegant design.', image: '/images/product5.jpeg', price: 45000 },
+  { id: 6, title: 'Wireless Headphones', category: 'Electronics', description: 'Premium wireless headphones with noise cancellation and superior sound quality.', image: '/images/product6.png', price: 28000 },
 ];
 
 const categories = ['All', ...new Set(products.map(p => p.category))];
@@ -32,9 +32,9 @@ const Home = () => {
     <main className="home">
       <section className="home__hero">
         <div className="home__hero-content">
-          <span className="home__hero-tag">🌾 Farm to Doorstep</span>
-          <h1>Fresh Nigerian<br /><span>Agric Products</span></h1>
-          <p>Direct from trusted local farmers across Nigeria. Genuine produce, fair prices, fast delivery.</p>
+          <span className="home__hero-tag">✨ Fresh Accessories</span>
+          <h1>Premium<br /><span>Accessories Store</span></h1>
+          <p>Discover the latest collection of shoes, bags, cameras, glasses, and more. Quality accessories for your lifestyle.</p>
         </div>
       </section>
 

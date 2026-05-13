@@ -6,15 +6,15 @@ const About = () => (
     <div className="about__container">
       <div className="about__hero">
         <span className="about__tag">Our Story</span>
-        <h1>Connecting Nigerian Farmers<br />to Every Kitchen</h1>
-        <p>TimbuCloud was built to bridge the gap between hardworking local farmers and families who want fresh, authentic Nigerian produce without the market stress.</p>
+        <h1>Your Premium<br />Accessories Destination</h1>
+        <p>TimbuCloud brings you the finest collection of shoes, bags, cameras, eyewear, and lifestyle accessories. We curate quality products that complement your unique style.</p>
       </div>
 
       <div className="about__values">
         {[
-          { icon: '🌾', title: 'Farm Fresh', desc: 'Every product is sourced directly from verified local farmers across Nigeria — no middlemen, no compromise on quality.' },
-          { icon: '🚚', title: 'Fast Delivery', desc: 'Orders are packed same-day and delivered within 24–48 hours, keeping produce fresh from farm to your door.' },
-          { icon: '🤝', title: 'Fair Trade', desc: 'We pay farmers fairly and price products honestly. When farmers thrive, communities thrive.' },
+          { icon: '👟', title: 'Quality First', desc: 'Every accessory is carefully selected for quality, durability, and style — only the best makes it to our collection.' },
+          { icon: '🚚', title: 'Fast Delivery', desc: 'Orders are processed same-day and delivered within 24–48 hours, bringing your favorite accessories right to your door.' },
+          { icon: '💎', title: 'Premium Selection', desc: 'We curate premium accessories from trusted brands and designers to ensure you get the best value for your money.' },
         ].map(v => (
           <div key={v.title} className="about__value-card">
             <span className="about__value-icon">{v.icon}</span>
