@@ -15,9 +15,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "cross-env GENERATE_SOURCEMAP=false react-scripts start",
-    "build": "cross-env GENERATE_SOURCEMAP=false react-scripts build",
-    "test": "react-scripts test",
+    "start": "cross-env GENERATE_SOURCEMAP=false craco start",
+    "build": "cross-env GENERATE_SOURCEMAP=false craco build",
+    "test": "craco test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -39,8 +39,16 @@
     ]
   },
   "devDependencies": {
+    "@craco/craco": "^7.1.0",
     "@types/node": "^16.18.126",
     "ajv": "^6.12.6",
     "cross-env": "^10.1.0"
+  },
+  "overrides": {
+    "ajv": "^6.12.6"
+  },
+  "resolutions": {
+    "ajv": "^6.12.6",
+    "ajv-keywords": "^3.5.2"
   }
 }
