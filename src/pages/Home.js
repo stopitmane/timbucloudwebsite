@@ -3,12 +3,12 @@ import { useCart } from '../context/CartContext';
 import './Home.css';
 
 const products = [
-  { id: 1, title: 'Premium Leather Sneakers', category: 'Shoes', description: 'Stylish and comfortable leather sneakers perfect for casual and semi-formal occasions.', image: '/images/product1.jpeg', price: 25000 },
-  { id: 2, title: 'Designer Handbag', category: 'Bags', description: 'Elegant designer handbag crafted from premium materials with spacious compartments.', image: '/images/product2.jpeg', price: 18500 },
-  { id: 3, title: 'Professional Camera', category: 'Electronics', description: 'High-quality digital camera with advanced features for photography enthusiasts.', image: '/images/product3.jpeg', price: 85000 },
-  { id: 4, title: 'Polarized Sunglasses', category: 'Eyewear', description: 'UV protection sunglasses with polarized lenses and trendy frame design.', image: '/images/product4.jpeg', price: 12000 },
-  { id: 5, title: 'Luxury Wristwatch', category: 'Watches', description: 'Sophisticated timepiece with precision movement and elegant design.', image: '/images/product5.jpeg', price: 45000 },
-  { id: 6, title: 'Wireless Headphones', category: 'Electronics', description: 'Premium wireless headphones with noise cancellation and superior sound quality.', image: '/images/product6.png', price: 28000 },
+  { id: 1, title: 'Stylish Shoulder Bag', category: 'Bags', description: 'Trendy shoulder bag with adjustable strap, perfect for everyday use and casual outings.', image: '/images/product1.jpeg', price: 15000 },
+  { id: 2, title: 'Designer Handbag', category: 'Bags', description: 'Elegant designer handbag crafted from premium materials with spacious compartments.', image: '/images/product2.jpeg', price: 22000 },
+  { id: 3, title: 'Classic Tote Bag', category: 'Bags', description: 'Spacious tote bag with multiple pockets, ideal for work, shopping, or travel.', image: '/images/product3.jpeg', price: 18500 },
+  { id: 4, title: 'Fashion Sunglasses', category: 'Eyewear', description: 'UV protection sunglasses with stylish frames and polarized lenses for eye comfort.', image: '/images/product4.jpeg', price: 8500 },
+  { id: 5, title: 'Statement Necklace', category: 'Jewelry', description: 'Eye-catching statement necklace to elevate any outfit with elegant design.', image: '/images/product5.jpeg', price: 12000 },
+  { id: 6, title: 'Woven Palm Bag', category: 'Bags', description: 'Handcrafted woven palm bag with natural texture, perfect for beach or casual wear.', image: '/images/product6.png', price: 9500 },
 ];
 
 const categories = ['All', ...new Set(products.map(p => p.category))];
